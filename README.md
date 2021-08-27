@@ -8,7 +8,7 @@
 
 ## 开始使用
 
-- 从 Release 下载 <a href="https://github.com/JackuXL/WearMusic/releases"><img src="https://img.shields.io/github/v/release/JackuXL/wearmusic.svg"></a>
+- 从 Release 下载 <a href="https://github.com/JackuXL/WearMusic/releases"><img src="https://img.shields.io/github/v/release/JackuXL/jianyuattacker.svg"></a>
 
 - 运行 `YandaFucker.exe`
 
