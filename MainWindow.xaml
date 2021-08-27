@@ -1,0 +1,20 @@
+﻿<Window x:Class="YandaFucker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="JianYuAttacker" Height="372" Width="536">
+    <Grid Margin="0,0,0,-6">
+        <TextBox x:Name="tb_prefix" HorizontalAlignment="Left" Height="31" Margin="100,63,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="前缀..."  VerticalAlignment="Top" Width="151" FontSize="16" CaretBrush="#FF2175F3"/>
+        <Button x:Name="btn_push" Content="开始攻击" HorizontalAlignment="Left" Margin="388,113,0,0" VerticalAlignment="Top" Width="94" Height="40" Cursor="Hand" Click="btn_push_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="32,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" Width="65" FontSize="16" Text="用户名"/>
+        <TextBlock HorizontalAlignment="Left" Margin="256,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" Width="104" FontSize="16" Text="_[循环变量]"/>
+        <TextBox x:Name="tb_count" HorizontalAlignment="Left" Height="31" Margin="32,113,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="次数（0为不限）..."  VerticalAlignment="Top" Width="204" FontSize="16" CaretBrush="#FF2175F3"/>
+        <ListBox x:Name="log" Margin="34,194,34,29"/>
+        <TextBlock x:Name="tb" HorizontalAlignment="Left" Margin="32,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Height="25" Width="65" FontSize="16" Text="日志"/>
+        <TextBlock HorizontalAlignment="Left" Margin="32,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" Width="65" FontSize="16" Text="目标"/>
+        <TextBox x:Name="tb_url" HorizontalAlignment="Left" Height="31" Margin="100,18,0,0" TextWrapping="Wrap" materialDesign:HintAssist.Hint="http://example.com/"  VerticalAlignment="Top" Width="382" FontSize="16" CaretBrush="#FF2175F3" Cursor="IBeam"/>
+    </Grid>
+</Window>
